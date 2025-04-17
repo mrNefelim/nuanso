@@ -4,6 +4,7 @@ const nextConfig = {
   swcMinify: true,
   output: 'export',
   basePath: '/blind_spot',
+  assetPrefix: '/blind_spot/',
   images: {
     unoptimized: true
   }

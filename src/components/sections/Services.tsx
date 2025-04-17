@@ -1,30 +1,31 @@
 import React from 'react';
 import Image from 'next/image';
+import { getAssetPath } from '@/lib/utils';
 
 export const Services = () => {
   const services = [
     {
-      icon: '/images/services/sysadmin.jpg',
+      icon: getAssetPath('images/services/sysadmin.jpg'),
       title: 'Системное администрирование',
       description: 'Настройка и оптимизация серверной инфраструктуры'
     },
     {
-      icon: '/images/services/docs.jpg',
+      icon: getAssetPath('images/services/docs.jpg'),
       title: 'Оформление технической и бизнес-документации',
       description: 'Структурирование и стандартизация документации'
     },
     {
-      icon: '/images/services/automation.jpg',
+      icon: getAssetPath('images/services/automation.jpg'),
       title: 'Автоматизация рутинных процессов',
       description: 'Внедрение автоматизации для повышения эффективности'
     },
     {
-      icon: '/images/services/analytics.jpg',
+      icon: getAssetPath('images/services/analytics.jpg'),
       title: 'Организация и настройка аналитики',
       description: 'Настройка систем сбора и анализа данных'
     },
     {
-      icon: '/images/services/tools.jpg',
+      icon: getAssetPath('images/services/tools.jpg'),
       title: 'Внедрение инструментов',
       description: 'Notion, Jira, Confluence, GitLab CI/CD, Power BI и др.'
     }
