@@ -8,5 +8,5 @@ export function cn(...inputs: ClassValue[]) {
 export function getAssetPath(path: string) {
   // Убираем начальный слеш, если он есть
   const cleanPath = path.startsWith('/') ? path.slice(1) : path;
-  return `/nuanso/${cleanPath}`;
+  return `/${cleanPath}`;
 } 
