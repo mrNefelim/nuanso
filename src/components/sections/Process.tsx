@@ -4,8 +4,8 @@ import Image from 'next/image';
 export const Process = () => {
   const steps = [
     {
-      title: 'Анализ текущего состояния',
-      description: 'Изучаем ваши процессы, документацию и инфраструктуру'
+      title: 'Анализ состояния',
+      description: 'Изучаем процессы, документацию и инфраструктуру'
     },
     {
       title: 'Выявление проблем',

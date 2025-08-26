@@ -5,7 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin', 'cyrillic'] });
 
 export const metadata: Metadata = {
-  title: 'BlindSpot - Операционный аудит для стартапов',
+  title: 'Нуансо - Операционный аудит для стартапов',
   description: 'Мы делаем операционный аудит стартапов: от системной архитектуры до автоматизации, от документооборота до аналитики.',
 };
 

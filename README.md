@@ -1,4 +1,4 @@
-# BlindSpot - Операционный аудит для стартапов
+# Нуансо - Операционный аудит для стартапов
 
 Лендинг для сервиса операционного аудита стартапов.
 
@@ -13,8 +13,8 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/your-username/blindspot.git
-cd blindspot
+git clone https://github.com/mrnefelim/nuanso.git
+cd nuanso
 ```
 
 2. Установите зависимости:
