@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   output: 'export',
   basePath: '/nuanso',
-  assetPrefix: '/nuanso/',
+  assetPrefix: '/',
   images: {
     unoptimized: true
   }
