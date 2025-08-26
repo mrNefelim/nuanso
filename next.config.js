@@ -3,8 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: 'export',
-  basePath: '/nuanso',
-  assetPrefix: '/',
+  
   images: {
     unoptimized: true
   }
