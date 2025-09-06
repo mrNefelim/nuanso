@@ -23,35 +23,9 @@ export const CTA = () => {
           <h2 className="text-4xl font-bold mb-8 text-white">
             Хаос в операционке? Мы его систематизируем.
           </h2>
-          <form className="space-y-4">
-            <div>
-              <input
-                type="text"
-                placeholder="Имя"
-                className="w-full px-4 py-3 rounded-md text-gray-900"
-              />
-            </div>
-            <div>
-              <input
-                type="email"
-                placeholder="Email"
-                className="w-full px-4 py-3 rounded-md text-gray-900"
-              />
-            </div>
-            <div>
-              <textarea
-                placeholder="Что болит?"
-                className="w-full px-4 py-3 rounded-md text-gray-900"
-                rows={4}
-              />
-            </div>
-            <Button
-              type="submit"
-              className="w-full bg-white text-gray-900 hover:bg-gray-100"
-            >
-              Хочу аудит
-            </Button>
-          </form>
+          <script src="https://forms.yandex.ru/_static/embed.js"></script>
+          <iframe src="https://forms.yandex.ru/u/68bc0374eb6146cd79523224?iframe=1" frameBorder="0"
+                  name="ya-form-68bc0374eb6146cd79523224" width="650"></iframe>
         </div>
       </div>
     </section>
